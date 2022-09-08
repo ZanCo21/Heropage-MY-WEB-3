@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+/* navbar */
+nav{
+    height: 40px;
+    background-color: transparent;
+    width: 100%;
+    font-weight: lighter;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0
+}
+
+nav li a{
+        text-decoration: none;
+        color:black;
+}
+
+.navright{
+    position: absolute;
+    top: 0;
+    height: 19px;
+    font-size: 13px;
+    margin-top: 10px;
+    right: 25px;
+
+}
+
+.navright li{
+    display: inline-block;
+    margin-right: 20px;
+    top: 0;
+}
+
+.titlemu{
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: -0.5%;
+    margin-left: 2%;
+}
+
+/* bg */
+.bg img{
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+    margin-top: -5%;
+
+}
+
+/* display */
+.text{
+    margin-top: 7%;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+.blk1{
+    color: red;
+    display: block;
+    margin-left: 5%;
+}
+
+input{
+    border-top-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: transparent;
+    border-bottom-color: black;
+    border-color: none;
+}
+
+.bglogin{
+    background-color: white;
+    width: 30%;
+    margin-left: 5%;
+    border-radius: 10%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+}
+
+/* btn */
+.btn1 {
+    cursor: grab;
+    border-radius: 15px;
+    margin-top: 4.5%;   
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    color: white;
+    margin-left: 35%;
+    background: linear-gradient(to right, blue, #30E8BF);
+}
